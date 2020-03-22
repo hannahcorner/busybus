@@ -73,6 +73,27 @@ nav {
   font-size: 1.2em;
 }
 
+.bus-icon-east {
+  margin-left: 3%;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #5C7EC4;
+}
+
+.bus-icon-north {
+  margin-left: 3%;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #C49C3F;
+}
+
+.bus-icon-south {
+  margin-left: 3%;
+  display: inline-block;
+  font-size: 1.2em;
+  color: #C47566;
+}
+
 h2 {
   display: inline-block;
   font-size:1.1em;
