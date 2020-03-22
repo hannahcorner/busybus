@@ -1,0 +1,130 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  background-color: #FFFFFF;
+  font-family: "SF Pro Text";
+}
+
+nav {
+  color: #FFFFFF;
+  background-color: #53B3C4;
+}
+
+.arrow-left {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 10%;
+  margin-left: 3%;
+  margin-top: 2%
+}
+
+.street {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.refresh {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 10%;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.status-bar {
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.map {
+  display: inline-block;
+}
+
+.bus-list-item {
+  border-bottom: 1px solid #888888;
+  color: #555555;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.bus-data-line1 {
+  display: inline-block;
+  margin-bottom: 1%;
+  width: 100%
+}
+
+.bus-data-line2 {
+  font-size: .6em;
+  display: inline-block;
+  width: 100%
+}
+
+.bus-icon {
+  margin-left: 3%;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+h2 {
+  display: inline-block;
+  font-size:1.1em;
+}
+
+.time {
+  float: right;
+  margin-right: 4%;
+}
+
+h3 {
+  font-size:1.5em;
+  font-weight: 700;
+  display: inline-block;
+}
+
+h4 {
+  font-weight: 700;
+  font-size:.8em;
+  display: inline-block;
+}
+
+h5 {
+  margin-left: 3%;
+  display: inline-block;
+}
+
+h6 {
+  float:right;
+  margin-right: 4%;
+}
+
+.warning {
+  text-align: center;
+  display: inline-block;
+  font-weight: 100;
+}
+
+.button {
+  background-color: #C49C3F;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: default;
+  border-radius: 18px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: .7em;
+}
