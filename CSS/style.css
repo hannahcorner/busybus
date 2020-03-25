@@ -218,10 +218,12 @@ h6 {
 
 .map-info {
 background-image: url(../images/BusStopDisplay.png);
-height: 20%;
+height: 150px;
 background-size: cover;
 background-position: center;
 margin-top: 10%;
+color: #53B3C4;
+font-weight: 800;
 }
 
 .stop-info {
