@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Busybus</title>
+    <title>Busybus List View</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +12,12 @@
       <div class="status-bar">
         <img src="images/status_bar.png">
       </div>
-      <div class="arrow-left">
+
+       <a href="stopinfo.html" style="text-decoration: none; color: white;"><div class="arrow-left">
         <i class="fas fa-chevron-left"></i>
-      </div>
+      </div></a>
+
+
       <div class="street">
         <h1>Washington & State</h1>
       </div>
@@ -22,13 +26,13 @@
       </div>
     </nav>
 
-    <div class="content">
-      <div class="map">
+    <main class="content">
+      <section class="map">
         <img src="images/BusStopDisplay.png">
-      </div>
+      </section>
       <section class="bus-list">
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon-east">
                 <i class="fas fa-bus"></i>
               </div>
@@ -37,15 +41,15 @@
                 <h3>2</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>Randolph/Harbor Dr</h5>
               <h6>and in 22, 42 minutes</h6>
-            </div>
+            </li>
         </div>
 
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon-north">
                 <i class="fas fa-bus"></i>
               </div>
@@ -54,15 +58,15 @@
                 <h3>3</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>Devon/Clark</h5>
               <h6>and in 19, 25 minutes</h6>
-            </div>
+            </li>
         </div>
 
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon-south">
                 <i class="fas fa-bus"></i>
               </div>
@@ -71,15 +75,15 @@
                 <h3>5</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>103rd/Stony Island</h5>
               <h6>and in 20, 35 minutes</h6>
-            </div>
+            </li>
         </div>
 
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon-east">
                 <i class="fas fa-bus"></i>
               </div>
@@ -88,15 +92,15 @@
                 <h3>7</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>Navy Pier</h5>
               <h6>and in 17, 27 minutes</h6>
-            </div>
+            </li>
         </div>
 
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon">
                 <i class="fas fa-bus"></i>
               </div>
@@ -105,15 +109,15 @@
                 <h3>10</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>Jackson Park Resource</h5>
               <h6>REROUTE</h6>
-            </div>
+            </li>
         </div>
 
         <div class="bus-list-item">
-            <div class="bus-data-line1">
+            <li class="bus-data-line1">
               <div class="bus-icon-south">
                 <i class="fas fa-bus"></i>
               </div>
@@ -122,19 +126,20 @@
                 <h3>13</h3>
                 <h4>min</h4>
               </div>
-            </div>
-            <div class="bus-data-line2">
+            </li>
+            <li class="bus-data-line2">
               <h5>Navy Pier</h5>
               <h6>and in 23, 33 minute</h6>
-            </div>
+            </li>
         </div>
 
-        <button class="button">
+        <a href="outofservice.html"><button class="warning-button">
           <div class="warning">
             <i class="fas fa-exclamation-triangle"></i>
           </div>
-          <h4>Out of Service Buses</h4>
-        </button>
+          OUT OF SERVICE BUSES
+        </button></a>
 
       </section>
+    </main>
   </body>
