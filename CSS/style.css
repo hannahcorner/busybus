@@ -13,6 +13,7 @@ nav {
   background-color: #53B3C4;
 }
 
+/*Header Styling*/
 .arrow-left {
   display: inline-block;
   font-size: 1.5em;
@@ -43,66 +44,10 @@ nav {
   margin-top: -5px;
 }
 
-.map {
-  display: inline-block;
-}
-
-.bus-list-item {
-  border-bottom: 1px solid #888888;
-  color: #555555;
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  list-style-type: none;
-}
-
-.bus-data-line1 {
-  display: inline-block;
-  /*margin-bottom: -3%;*/
-  width: 100%;
-}
-
-.bus-data-line2 {
-  font-size: .6em;
-  display: inline-block;
-  width: 100%
-}
-
-.bus-icon {
-  margin-left: 3%;
-  display: inline-block;
-  font-size: 1.2em;
-}
-
-.bus-icon-east {
-  margin-left: 3%;
-  display: inline-block;
-  font-size: 1.2em;
-  color: #5C7EC4;
-}
-
-.bus-icon-north {
-  margin-left: 3%;
-  display: inline-block;
-  font-size: 1.2em;
-  color: #C49C3F;
-}
-
-.bus-icon-south {
-  margin-left: 3%;
-  display: inline-block;
-  font-size: 1.2em;
-  color: #C47566;
-}
-
+/*Headings*/
 h2 {
+  font-size:1.5em;
   display: inline-block;
-  font-size:1.1em;
-}
-
-.time {
-  float: right;
-  margin-right: 4%;
 }
 
 h3 {
@@ -125,6 +70,68 @@ h5 {
 h6 {
   float:right;
   margin-right: 4%;
+}
+
+/*Schedule Styling*/
+.bus-list-item {
+  border-bottom: 1px solid #888888;
+  color: #555555;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  list-style-type: none;
+}
+
+.bus-data-line1 {
+  display: inline-block;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+.bus-data-line2 {
+  font-size: .6em;
+  display: inline-block;
+  width: 100%
+}
+
+.time {
+  float: right;
+}
+
+
+/*Compass Icons*/
+.icon-north {
+  transform: rotate(-45deg);
+  display: inline-block;
+}
+
+.icon-south {
+  transform: rotate(135deg);
+  display: inline-block;
+  padding-top:2%;
+}
+
+.icon-east {
+  transform: rotate(45deg);
+  display: inline-block;
+  padding-top:2%;
+}
+
+
+/*Other Styling*/
+.reroute {
+  background-color: #C47566;
+  border-radius: 500px;
+  width: 20%;
+  line-height: 1.6em;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size:.6em;
+  font-weight: 600;
+  padding-right: 1%;
+  padding-top: .6%;
 }
 
 .warning {
